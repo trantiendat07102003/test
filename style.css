@@ -1,0 +1,97 @@
+body {
+    background-color: #F3336C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container .header {
+    text-align: center;
+}
+.container .body .about-me .row img{
+    width: 320px;
+    height: 213px;
+}
+.container .body {
+    width: 80%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+.container .body .content .about-me {
+    background-color: white;
+    border-radius: 10px;
+    padding: 60px;
+    margin-bottom: 50px;
+}
+.container .body .content .about-me .row {
+    display: flex;
+}
+.container .body .content .about-me .row p {
+    padding-left: 20px;
+}
+.container .body .content .project {
+    background-color: white;
+    border-radius: 10px;
+    padding: 60px;
+}
+.container .body .content .project .col {
+    display: flex;
+    justify-content: space-between;
+}
+.container .body .content .project .col .row img {
+    width: 90%;
+}
+.container .body .content .work {
+    background-color: white;
+    margin-top: 50px;
+    padding: 60px;
+}
+.container .body .content .education {
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 50px;
+    padding: 60px;
+}
+.container .body .content .education .col {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.container .body .content .language {
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 60px;
+}
+.container .body .content .language .col {
+    display: flex;
+    justify-content: space-between;
+}
+.container .body .content .social-network {
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 60px;
+}
+.container .body .content .contact {
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 60px;
+}
+.container .body .content .contact .row form input{
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    height: 50px;
+}
+.container .body .content .contact .row form button {
+    margin-top: 20px;
+    background-color: #FF3367;
+    width: 130px;
+    height: 30px;
+    border-radius: 30px
+}
+
